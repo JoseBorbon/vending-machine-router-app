@@ -1,4 +1,4 @@
-import { NavLink, Switch } from 'react-router-dom';
+import { Route, NavLink, Switch } from 'react-router-dom';
 import VendingMachine from './Components/VendingMachine';
 import Soda from './Components/Soda';
 import Chips from './Components/Chips';
@@ -8,14 +8,26 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Switch>
-          <NavLink exact to="/" render={() => <VendingMachine />} />
-          <NavLink exact to="/soda" render={() => <Soda />} />
-          <NavLink exact to="/chips" render={() => <Chips />} />
-          <NavLink exact to="/sardines" render={() => <Sardines />} />
-        </Switch>
+      <nav className="VendingMachine-top-nav">
+        <NavLink activeClassName="Active-page" exact to="/">
+          Vending Machine
+        </NavLink>
+        <NavLink activeClassName="Active-page" exact to="/soda">
+          Soda
+        </NavLink>
+        <NavLink activeClassName="Active-page" exact to="/chips">
+          Chips
+        </NavLink>
+        <NavLink activeClassName="Active-page" exact to="/sardines">
+          Sardines
+        </NavLink>
       </nav>
+      <Switch>
+        <Route exact path="/" render={() => <VendingMachine />} />
+        <Route exact path="/soda" render={() => <Soda />} />
+        <Route exact path="/chips" render={() => <Chips />} />
+        <Route exact path="/sardines" render={() => <Sardines />} />
+      </Switch>
     </div>
   );
 }
