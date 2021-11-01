@@ -1,0 +1,45 @@
+.VendingMachine-container {
+  background-image: url('http://your.vendingchat.com/uploads/png/3b6b7fc3c86a345b30e325f50ae5d4f2.png?ver=2.1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  column-gap: 40%;
+  border: 4px solid white;
+}
+
+.VendingMachine-container > * {
+  height: 17vh;
+  width: 20vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.VendingMachine-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+  background-color: hsla(0, 100%, 0%, 0.6);
+  border-radius: 0.5em;
+}
+
+.VendingMachine-nav > * {
+  font-size: 25px;
+}
+
+.VendingMachine-welcome {
+  background-color: hsla(0, 100%, 0%, 0.6);
+  border-radius: 0.5em;
+}
+
+h1 {
+  height: auto !important;
+  margin-top: 20%;
+  transform: translate(0, -40%);
+  color: white;
+  font-size: 30px;
+}
