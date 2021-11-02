@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/vending-machine-router-app/static/css/main.e1e363be.chunk.css",
-    "main.js": "/vending-machine-router-app/static/js/main.9921db19.chunk.js",
-    "main.js.map": "/vending-machine-router-app/static/js/main.9921db19.chunk.js.map",
+    "main.css": "/vending-machine-router-app/static/css/main.361804d7.chunk.css",
+    "main.js": "/vending-machine-router-app/static/js/main.e7b2e401.chunk.js",
+    "main.js.map": "/vending-machine-router-app/static/js/main.e7b2e401.chunk.js.map",
     "runtime-main.js": "/vending-machine-router-app/static/js/runtime-main.b4437b66.js",
     "runtime-main.js.map": "/vending-machine-router-app/static/js/runtime-main.b4437b66.js.map",
     "static/js/2.28024e04.chunk.js": "/vending-machine-router-app/static/js/2.28024e04.chunk.js",
     "static/js/2.28024e04.chunk.js.map": "/vending-machine-router-app/static/js/2.28024e04.chunk.js.map",
     "index.html": "/vending-machine-router-app/index.html",
-    "static/css/main.e1e363be.chunk.css.map": "/vending-machine-router-app/static/css/main.e1e363be.chunk.css.map",
-    "static/js/2.28024e04.chunk.js.LICENSE.txt": "/vending-machine-router-app/static/js/2.28024e04.chunk.js.LICENSE.txt"
+    "static/css/main.361804d7.chunk.css.map": "/vending-machine-router-app/static/css/main.361804d7.chunk.css.map",
+    "static/js/2.28024e04.chunk.js.LICENSE.txt": "/vending-machine-router-app/static/js/2.28024e04.chunk.js.LICENSE.txt",
+    "static/media/VendingMachine.css": "/vending-machine-router-app/static/media/vending-machine.34b1fcbc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b4437b66.js",
     "static/js/2.28024e04.chunk.js",
-    "static/css/main.e1e363be.chunk.css",
-    "static/js/main.9921db19.chunk.js"
+    "static/css/main.361804d7.chunk.css",
+    "static/js/main.e7b2e401.chunk.js"
   ]
 }
