@@ -9,6 +9,7 @@ class Soda extends Component {
         <img
           className="Soda-can-one"
           src="https://purepng.com/public/uploads/large/purepng.com-coca-cola-cancoca-colacokecarbonated-soft-drinksoft-drinkcoke-can-1411527233399fihip.png"
+          alt="coca-cola-can"
         />
         <div className="Soda-back-container">
           <Link className="Soda-go-back" exact to="/">
@@ -19,6 +20,7 @@ class Soda extends Component {
         <img
           className="Soda-can-two"
           src="https://purepng.com/public/uploads/large/purepng.com-coca-cola-cancoca-colacokecarbonated-soft-drinksoft-drinkcoke-can-1411527233399fihip.png"
+          alt="coca-cola-can"
         />
       </div>
     );
