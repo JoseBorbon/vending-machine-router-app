@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vending-machine-router-app/static/css/main.e1e363be.chunk.css",
-    "main.js": "/vending-machine-router-app/static/js/main.7066ce6a.chunk.js",
-    "main.js.map": "/vending-machine-router-app/static/js/main.7066ce6a.chunk.js.map",
+    "main.js": "/vending-machine-router-app/static/js/main.390018db.chunk.js",
+    "main.js.map": "/vending-machine-router-app/static/js/main.390018db.chunk.js.map",
     "runtime-main.js": "/vending-machine-router-app/static/js/runtime-main.b4437b66.js",
     "runtime-main.js.map": "/vending-machine-router-app/static/js/runtime-main.b4437b66.js.map",
     "static/js/2.28024e04.chunk.js": "/vending-machine-router-app/static/js/2.28024e04.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b4437b66.js",
     "static/js/2.28024e04.chunk.js",
     "static/css/main.e1e363be.chunk.css",
-    "static/js/main.7066ce6a.chunk.js"
+    "static/js/main.390018db.chunk.js"
   ]
 }
