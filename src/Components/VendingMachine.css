@@ -1,5 +1,5 @@
 .VendingMachine-container {
-  background-image: url('http://your.vendingchat.com/uploads/png/3b6b7fc3c86a345b30e325f50ae5d4f2.png?ver=2.1');
+  background-image: url('../assets/images/vending-machine.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
