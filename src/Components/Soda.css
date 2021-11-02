@@ -1,10 +1,10 @@
-.VendingMachine-soda-container {
+.Soda-container {
   display: flex;
   column-gap: 100px;
   justify-content: center;
 }
 
-.VendingMachine-soda-can-one {
+.Soda-can-one {
   margin-top: 80px;
   width: 30em;
   height: 30em;
@@ -13,13 +13,26 @@
   animation-iteration-count: infinite;
 }
 
-.VendingMachine-soda-can-two {
+.Soda-can-two {
   margin-top: 80px;
   width: 30em;
   height: 30em;
   animation-name: spin-left;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+}
+
+.Soda-back-container {
+  background-color: hsla(0, 100%, 0%, 0.82);
+  margin-top: auto;
+  color: white;
+  border-radius: 1.2em;
+}
+
+.Soda-go-back {
+  font-size: 40px;
+  margin-top: 200px;
+  color: gold;
 }
 
 @keyframes spin-right {
@@ -38,17 +51,4 @@
   to {
     transform: rotate(0deg);
   }
-}
-
-.VendingMachine-back-container {
-  background-color: hsla(0, 100%, 0%, 0.82);
-  margin-top: auto;
-  color: white;
-  border-radius: 1.2em;
-}
-
-.VendingMachine-go-back {
-  font-size: 40px;
-  margin-top: 200px;
-  color: gold;
 }
