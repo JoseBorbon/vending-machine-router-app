@@ -1,0 +1,24 @@
+.Chips-container {
+  margin: 50vh;
+  transform: translateY(-50%);
+}
+
+.Chips-go-back {
+  font-size: 35px;
+  color: gold;
+}
+
+.count-container {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsla(0, 100%, 0%, 0.82);
+  width: 225px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.count-container > h1 {
+  align-self: center;
+}
